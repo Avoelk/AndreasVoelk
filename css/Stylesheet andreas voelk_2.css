@@ -475,11 +475,7 @@ ul {
   text-align: center;
 }
 
-li {
-  display: inline-block;
-  list-style-type: none;
-  width: 50%;
-}
+
 
 img {
   padding: 0px;
@@ -488,11 +484,33 @@ img {
   /* Bild passt sich an verfügbaren Raum im li an */;
 }
 
-li:hover {
+li {
+  display: inline-block;
+  list-style-type: none;
+  width: 50%;
   -webkit-filter: invert(100%) grayscale(100%);
-  transition: 1.5s;
 }
 
+li:hover {
+  -webkit-filter: invert(0%) grayscale(0%);
+  transition: 1s;
+}
+
+
+li:link {
+  color: rgba(83,250,98,1.00);
+  transition: 1s;
+}
+
+li:visited {
+  color: rgba(83,250,98,1.00);
+  transition: 1s;
+}
+
+li:active {
+  color: rgba(83,250,98,1.00);
+  transition: 1s;
+}
 @media all and (min-width: 35em) {
   li {
     width: 20em;
