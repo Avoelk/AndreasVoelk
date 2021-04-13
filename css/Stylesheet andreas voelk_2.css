@@ -515,7 +515,7 @@ li {
   display: inline-block;
   list-style-type: none;
   width: 50%;
-  -webkit-filter: invert(00%) grayscale(80%)hue-rotate(240deg);
+  -webkit-filter: invert(00%) grayscale(50%)hue-rotate(0deg);
 	
 }
 
